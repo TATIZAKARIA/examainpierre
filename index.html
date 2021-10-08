@@ -4,72 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+
     <title> examen </title>
 </head>
 <body>
 	<header>
-		<nav>
-            <a href="index.html"><img src="IMGPIERRE/logoPIERRE.svg" style="width: 80px; height: 80px;" alt="logo du portfolio à Bob" /> COMPANY LOGO</a>
-                <a href="#">HOME</a>
-                    <ul>
-                        <li> menu Styles</li>
-                        <li> Sliders</li>
-                        <li> More Features</li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-light backgNav">
+            <a href="index.html"  class="navbar-brand logo-center"><img src="IMGPIERRE/logoPIERRE.svg" style="width: 100px;" alt="logo du portfolio à Bob" /> 
+                COMPANY LOGO
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end 
+                           flex-fill ulNav">
+        
+                  <li class="nav-item">
+                    <a class="nav-link company-menu active" href="#">COMPANY</a>
+                    <a class="nav-link padNav" href="#">About Us</a>
+                    <a class="nav-link padNav2" href="#">Contact Us</a>
+                    <a class="nav-link padNav2" href="#">Custom Pages</a>
+                  </li> 
 
-                <a href="#">COMPAGNY</a>
-                    <ul>
-                        <li> About us</li>
-                        <li> Contact us</li>
-                        <li> Custom Pages</li>
-                    </ul>
-                <a href="#">PORTEFOLIO</a>
-                    <ul>
-                        <li> TWO Columnst</li>
-                        <li> THREE Columnst</li>
-                        <li> mORE Layouts</li>
-                    </ul>
-                <a href="#">PRODUCTS</a>
-                    <ul>
-                        <li> Product Category 1</li>
-                        <li> Product Category 2</li>
-                        <li> Custom templates</li>
-                    </ul>
-                <a href="#">BLOG</a>
-                    <ul>
-                        <li> Post Types</li>
-                        <li> Latest News</li>
-                        <li> Custom Blog</li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link portfolio-menu active" href="#">PORTEFOLIO</a>
+                    <a class="nav-link padNav" href="#">TWO Columnst</a>
+                    <a class="nav-link padNav2" href="#">THREE Columnst</a>
+                    <a class="nav-link padNav2" href="#">mORE Layouts</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link product-menu active" href="#">PRODUCTS</a>
+                    <a class="nav-link padNav" href="#">Product Category 1</a>
+                    <a class="nav-link padNav2" href="#">Product Category 2</a>
+                    <a class="nav-link padNav2" href="#">Custom templates</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link blog-menu active" href="#">BLOG</a>
+                    <a class="nav-link padNav" href="#">Post Types</a>
+                    <a class="nav-link padNav2" href="#">Latest News</a>
+                    <a class="nav-link padNav2" href="#">Custom Blog</a>
+                  </li> 
+                  
+                </ul>
+            </div>        
 		</nav>
+    </header>    
     <main>
-        <article>
-            <img src="IMGPIERRE/projet_css_image1.png"  alt="salon" />
-            <img src="IMGPIERRE/projet_css_image2.png"  alt="canapé" />
-            <img src="IMGPIERRE/projet_css_image3.png"  alt="salle a manger" />
-            <img src="IMGPIERRE/projet_css_image4.png"  alt="sale de bain" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim, 
-                quia veniam nobis temporibus adipisci maiores fugit dicta eos ea rerum natus 
-                commodi animi architecto corporis iure autem accusantium dolore voluptate voluptas dolor cumque perspiciatis ex. Voluptatem beatae sed possimus ab, dolores ipsa necessitatibus aperiam aliquid voluptate? A reprehenderit expedita veniam neque recusandae, iste quibusdam est cumque consequuntur corporis voluptas. 
-                Beatae neque eos earum recusandae.
-            </p>
+          <div class="burger">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-white p-4">
+                
+                <ul class="navbar-nav justify-content-end flex-fill ulNav">
+
+                    <li class="nav-item">
+                      <a class="nav-link company-menu active" href="#">COMPANY</a>
+                      <a class="nav-link padNav" href="#">About Us</a>
+                      <a class="nav-link padNav2" href="#">Contact Us</a>
+                      <a class="nav-link padNav2" href="#">Custom Pages</a>
+                    </li> 
+
+                    <li class="nav-item">
+                      <a class="nav-link portfolio-menu active" href="#">PORTEFOLIO</a>
+                      <a class="nav-link padNav" href="#">TWO Columnst</a>
+                      <a class="nav-link padNav2" href="#">THREE Columnst</a>
+                      <a class="nav-link padNav2" href="#">mORE Layouts</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link product-menu active" href="#">PRODUCTS</a>
+                      <a class="nav-link padNav" href="#">Product Category 1</a>
+                      <a class="nav-link padNav2" href="#">Product Category 2</a>
+                      <a class="nav-link padNav2" href="#">Custom templates</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link blog-menu active" href="#">BLOG</a>
+                      <a class="nav-link padNav" href="#">Post Types</a>
+                      <a class="nav-link padNav2" href="#">Latest News</a>
+                      <a class="nav-link padNav2" href="#">Custom Blog</a>
+                    </li> 
+                    
+                </ul>
+              </div>
+            </div>
+            <nav class="navbar navbar-light bg-light fixed-top">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon " ></span>
+                </button>
+              </div>
+            </nav>
+          </div>      
+
+
+
+
+      <div class="séparateur"></div>
+        <article class="row first">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" id="salon"><img src="IMGPIERRE/projet_css_image1.png"   alt="salon" /></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" id="salon"><img src="IMGPIERRE/projet_css_image2.png"  alt="canapé" /></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" id="salon"><img src="IMGPIERRE/projet_css_image3.png"  alt="salle a manger" /></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" id="salon"><img src="IMGPIERRE/projet_css_image4.png"  alt="sale de bain" /></div>
+
         </article>
-        <img src="IMGPIERRE/projet_css_image_fish.png"  alt="bocale de poisson" />
-
-        <article>
-
-        </article>
-        <article>
-
-        </article>    
+        <div class="séparateur2"></div>
+        <div class="texte">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim, 
+            quia veniam nobis temporibus adipisci maiores fugit dicta eos ea rerum natus 
+            commodi animi architecto corporis.
+          </p>
+        </div>
+        <div class="séparateur"></div>
         
+        <article class="row second">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo1">
+
+              <h3> WELCOME</h3>
+              <p>Lorem ipsus dolor sit amet</p>
+              <img src="IMGPIERRE/projet_css_image_fish.png"  alt="bocale de poisson" />
+              <p>Novi debent autem Indigna multos teneros digni amici ferunt veterrima quaeque debet sicut esse homine Indigna ea autem veterrima novi.</p>
+              <a href="#" class=" readMore">read more &#8594;</a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo2">     
+              <h3>LATEST WORKS</h3>
+              <p>sub title for home page box Damnabatur vel partes multatione aut damnabatur esset modum aut vel inimico delatus honoratorum sufficiente nobilis onere inimico multatione hostiles militarium.</p>    
+              <h3>OUR PRODUCTS</h3>
+              <p> sub title for home page box Damnabatur vel partes multatione aut damnabatur esset modum aut vel inimico delatus honoratorum sufficiente nobilis onere inimico multatione hostiles militarium.</p>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 expo3">
+   
+              <h3>FLEXIBLE PAGES</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <iframe width="600" height="338" src="https://www.youtube.com/embed/v1PeTDrw6OY"  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+        </article>
+        <div class="séparateur2"></div>
+        <article class="row third">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo2">
+            <h4>CONTACT DETAILS</h4>
+            <a href="#"><i class="fas fa-home"></i> 63739 street lorem ipsum</a><br/>
+            <a href="#"><i class="fas fa-headset"></i> +1 123 312 32 23</a><br/><br/>
+            <a href="#" class="infoComp mail"><i class="fas fa-envelope"></i>info@company.com</a><br>
+            <a href="#" class="supportComp mail"><i class="fas fa-life-ring"></i>support@company.com</a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo2">
+            <h4>TWITTER FEEDS</h4>
+            <h5>about 5 hours ago</h5>
+            <p>Pragmatic, pratical font sizing in<br>Css <a href="#" class="infoComp mail">https://t.co/K6mDVzL4</a></p>
+          
+          </div>     
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo2">
+            <h4>RECENT POSTS</h4>
+            <p>01 Mar 2012</p>
+            <strong>Gallery Post Type</strong>
+            <p>Eos altero est quos modo qui Cum benevola non modo memoriam quodam eos propter est quodam M' Curi quos altero.</p>
+
+          </div>     
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 expo2">
+              <h4>WIDGETIZED FOOTER</h4>
+              <p>Tandem primum ea cum et minantium primum frangerentur animo factu pro ut summo frangerentur tunc honore frangerentur tunc id sollicitas Tandem primum ea cum et minantium primum frangerentur</p>
+            </div>     
+          </article>    
+          <div class="séparateur"></div>
     </main>
-	</header>
     <footer>
-        <article>
+    <div class="row fourth"> 
+      <div class="col-lg-6 menuFooter">
+          <a href="#">Press</a>
+          <a href="#">Company Blog</a>
+          <a href="#">Contact Us</a>
+          <a href="#">About Us</a>
+          <br/><br>
+          <p>Copyright &#169; Company Name, Inc.</p> 
+      </div>
 
-        </article>
-        
+      <div class="col-lg-6 alignIcon">
+          <i class="fas fa-at fa-2x"></i>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-google-plus fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-free-code-camp fa-2x"></i>
+      </div>
+    </div>  
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

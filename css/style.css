@@ -1,0 +1,166 @@
+
+
+nav{
+    background: url("/IMGPIERRE/background_pattern.png");
+    
+}
+
+header nav >a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;  
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header nav a img{
+position: relative;
+left: 50%;
+transform: translate(-50%);
+}
+
+.ulNav li{
+    /* padding-right: 5%; */
+    margin-right: 5%;
+}
+
+.home-menu {
+    border-bottom: 5px solid #f76801;
+    font-weight: bold;
+  }
+  .company-menu {
+    border-bottom: 5px solid #fbd049;
+    font-weight: bold;
+  }
+  .portfolio-menu {
+    border-bottom: 5px solid #9ec64b;
+    font-weight: bold;
+  }
+  .product-menu {
+    border-bottom: 5px solid #3f91c1;
+    font-weight: bold;
+  }
+  .blog-menu {
+    border-bottom: 5px solid #c078d0;
+    font-weight: bold;
+  }
+  .séparateur{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+  }
+  .first {
+    text-align: center;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+  }
+  #salon img{
+    border: solid 0.5px #76767648;
+    padding: 2%;
+    margin:1%;
+  }
+
+  .texte{
+    text-align: center;
+    background: url("/IMGPIERRE/background_pattern.png");
+    padding: 5%;
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #767676;
+  }
+  .séparateur2{
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+  }
+
+  .second{
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  h3{
+    color: coral;
+  }
+  .expo1{
+    border: 1px solid #f0f0f0;
+    box-shadow: 3px 3px 5px 2px #f6f6f6;
+    padding-top: 2%;
+  }
+  .readMore{
+    color: black;
+    text-decoration: none;
+  }
+  .readMore:hover{
+    color:coral;
+    transition: 0.5s;
+  }
+  .third{
+    background: url("/IMGPIERRE/background_pattern.png");
+    padding: 5%;
+    color: #767676;
+
+  }
+  .third a{
+    text-decoration: none;
+    color:#767676;
+  }
+  .mail:hover{
+    color: blue;
+  }
+
+footer, footer a{
+  color:#767676;
+  text-decoration: none;
+}
+
+
+footer a{
+  border-right: solid;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+footer :nth-child(4){
+ border-right: none;
+}
+
+
+.fourth{
+    margin-top: 5%;
+  }
+.menuFooter{
+  padding-left: 5%;
+}
+.menuFooter a:hover{
+  text-decoration: underline;
+}
+
+
+.alignIcon{
+  /* text-align: right; */
+  padding-left: 20%;
+   }
+  .alignIcon i{
+  padding-right: 2%;
+  }
+  .burger{
+    display: none;
+  }
+  @media screen and (max-width: 988px){
+    .burger, .burger a{
+      display: block;
+      color:#767676;
+    }
+  .navbar-toggler{
+    position: absolute;
+    right:5%;
+    top:50px;
+  }
+ 
+  }
+
